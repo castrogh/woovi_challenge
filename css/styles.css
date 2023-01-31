@@ -1,0 +1,37 @@
+/* Estilos Gerais */
+
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+	height: 1057px;
+	width: 464px;
+	position: relative;
+	background: white;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.logo{
+	position: absolute;
+	left: 36.85%;
+	right: 36.53%;
+	top: 3.41%;
+	bottom: 93.13%;
+}
+
+.como_pagar{
+	position: absolute;
+	width: 325px;
+	height: 33px;
+	left: 70px;
+	top: 113px;
+
+	font-family:'Nunito';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 24px;
+	line-height: 33px;
+}
