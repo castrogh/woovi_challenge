@@ -14,6 +14,8 @@ p {
 	line-height: 20px;
 }
 
+/* Estilos Header */
+
 .logo{
 	position: absolute;
 	left: 36.85%;
@@ -36,7 +38,9 @@ p {
 	line-height: 33px;
 }
 
-.pix{
+/* Estilos Opções de Pagamento */
+
+.btn_pix{
 	box-sizing: border-box;
 
 	position: absolute;
@@ -48,6 +52,12 @@ p {
 	background: #FFFFFF;
 	border: 2px solid #E5E5E5;
 	border-radius: 10px;
+
+	cursor: pointer;
+}
+
+.btn_pix:hover{
+	background: #a2ece6;
 }
 
 .pix_txt{
@@ -79,4 +89,75 @@ p {
 
 	background: #E5E5E5;
 	border-radius: 100px;
+}
+
+.txt_1x{
+	position: absolute;
+	width: 184px;
+	height: 33px;
+	left: 36px;
+	top: 198px;
+
+	font-family: 'Nunito';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 22px;
+	line-height: 33px;
+
+	color: #4D4D4D;
+}
+
+.sub_1x{
+	position: absolute;
+	width: 328px;
+	height: 23px;
+	left: 36px;
+	top: 232px;
+
+	font-family: 'Nunito';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+
+	color: #03D69D;
+}
+
+.cir_pix{
+	box-sizing: border-box;
+	position: absolute;
+	width: 26px;
+	height: 26px;
+	left: 397px;
+	top: 201px;
+	border: 2px solid #E5E5E5;
+	border-radius: 50%;
+}
+
+.ret_cashback{
+	color: white;
+	position: absolute;
+	width: 387px;
+	height: 33px;
+	left: 36px;
+	top: 259px;
+
+}
+
+.txt_cashback{
+	position: absolute;
+	width: 328px;
+	height: 20px;
+	left: 46px;
+	top: 266px;
+
+	font-family: 'Nunito';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 16px;
+	line-height: 20px;
+
+	/* identical to box height, or 125% */
+
+	color: #FFFFFF;
 }
