@@ -2,7 +2,7 @@
 
 .body{
     font-family: Arial, Helvetica, sans-serif;
-	height: 1057px;
+	height: 1133px;
 	width: 464px;
 	position: relative;
 	/*background: rgb(154, 152, 152);*/
@@ -13,7 +13,6 @@ p {
 	font-size: 14px;
 	line-height: 20px;
 }
-
 
 /* Estilos Header */
 
@@ -42,6 +41,84 @@ p {
     color: #4D4D4D;
 }
 
+/* Estilos */
+
+.qrcode{
+box-sizing: border-box;
+
+position: absolute;
+width: 332px;
+height: 332px;
+left: 55px;
+top: 199px;
+
+background: #FFFFFF;
+border: 3px solid #03D69D;
+border-radius: 10px;
+
+
+/* image 2 */
+
+position: absolute;
+width: 332px;
+height: 332px;
+left: 64px;
+top: 209px;
+}
+
+.btn_copia_qrcode{
+    position: absolute;
+    width: 310px;
+    height: 39px;
+    left: 74px;
+    top: 560px;
+    background: #133A6F;
+    border-radius: 8px;
+    color: #FFFFFF;color: #FFFFFF;
+    cursor: pointer;
+    text-align: center;    
+}
+
+.img_copia_qrcode{
+    position: absolute;
+    left: 340px;
+    top: 570px; 
+    width: 19px;
+    height: 22px;  
+}
+
+.txt_prazo{
+    position: absolute;
+    width: 154px;
+    height: 44px;
+    left: 153px;
+    top: 628px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #B2B2B2;
+}
+
+.txt_prazo2{
+    position: absolute;
+    width: 154px;
+    height: 44px;
+    left: 153px;
+    top: 647px;
+
+    font-family: 'Nunito';
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #000000;    
+}
 
 footer{
 	position: absolute;
