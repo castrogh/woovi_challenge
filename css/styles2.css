@@ -1,0 +1,52 @@
+/* Estilos Gerais */
+
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+	height: 1057px;
+	width: 464px;
+	position: relative;
+	/*background: rgb(154, 152, 152);*/
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+
+/* Estilos Header */
+
+.logo{
+	position: absolute;
+	left: 36.85%;
+	right: 36.53%;
+	top: 3.41%;
+	bottom: 93.13%;
+}
+
+.pague_entrada{
+    position: absolute;
+    width: 421px;
+    height: 66px;
+    left: 23px;
+    top: 113px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #4D4D4D;
+}
+
+
+footer{
+	position: absolute;
+	width: 269.52px;
+	height: 22px;
+	left: 97px;
+	top: 1008px;
+}
