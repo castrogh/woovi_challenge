@@ -1,0 +1,81 @@
+/*.select-menu{
+    width: 424px;
+    margin: 140px auto;
+}*/
+
+.select-btn{
+    box-sizing: border-box;
+    position: absolute;
+    width: 424px;
+    height: 65px;
+    left: 22px;
+    top: 579px;
+    display: flex;
+    
+    background: #FFFFFF;
+    border: 2px solid #E5E5E5;
+    border-radius: 8px;
+    font-family: 'Nunito';
+    font-weight: 600;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.select-btn i{
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+.select-menu.active .select-btn i{
+    transform: rotate(-180deg);
+}
+
+.select-menu .options{
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 0 3px rgba(0,0,0,0.1);
+    display: none;
+}
+
+.select-menu.active .options{
+    display: block;
+}
+
+.options .option{
+    display: flex;
+    height: 55px;
+    cursor: pointer;
+    padding: 0 16px;
+    border-radius: 8px;
+    align-items: center;
+    background: #fff;
+    font-family: 'Nunito';
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 424px;
+    height: 65px;
+    left: 22px;
+    top: 579px;
+    display: flex;
+
+}
+
+.options .option:hover{
+    background: #F2F2F2;
+}
+
+.option i{
+    font-size: 25px;
+    margin-right: 12px;
+    font-family: 'Nunito';
+}
+
+.option .option-text{
+    font-size: 18px;
+    color: #333;
+}
